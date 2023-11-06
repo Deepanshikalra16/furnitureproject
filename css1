@@ -1,0 +1,46 @@
+/* carousel indicators */
+
+/* .carousel-indicators {
+    right: 0;
+    left: auto;
+}
+.carousel-indicators li{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    list-style: none;
+    background-color: #fff;
+    margin-top: 20px;
+    border: none;
+}
+.carousel-indicators{
+    position: relative;
+    top: 252px;
+    left: 67%;
+    transform: rotate(90deg);
+}
+
+.carousel-indicators li.active{
+    border: 2px solid #fff;
+}
+.carousel-indicators li.active#slide1{
+    box-shadow: 1px 1px 20px #ff9393;
+}
+.carousel-indicators li.active#slide2{
+    box-shadow: 1px 1px 20px #65ffca;
+}
+.carousel-indicators li.active#slide2{
+    box-shadow: 1px 1px 20px #658eff;
+}
+li#slide1{
+    margin: 20px;
+    background-color: #ff9393;
+}
+li#slide2{
+    margin: 20px;
+    background-color: #65ffca;  
+}
+li#slide3{
+    margin: 20px;
+    background-color: #658eff; 
+} */

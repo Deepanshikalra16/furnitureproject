@@ -1,0 +1,428 @@
+<html>
+    <head>
+        <title>
+
+    </title>
+
+	<link rel="stylesheet" type="text/css" href="style_15.css">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+	
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+
+    <style>
+
+        .ttf{
+            background-color: rgba(104, 10, 10, 0.874);
+            border-radius: 100%;
+            color: white;
+            box-shadow:  0 2px 6px 2px rgba(19, 11, 11, 0.7);
+            border: 1px solid black;
+        }
+        .ttf:hover{
+            border-radius: 1px solid rgb(200, 42, 42);
+            color: rgb(13, 8, 8);
+        }
+        .ttf2{
+            background-color: rgba(12, 118, 40, 0.706);
+            border-radius: 100%;
+            box-shadow:  0 2px 6px 2px rgba(19, 11, 11, 0.7);
+            border: 1px solid black;
+        }
+        .ttf2:hover{
+            border-radius: 1px solid rgba(15, 98, 40, 0.597);
+            color: rgba(16, 150, 61, 0.699);
+        }
+        .ttf1{
+            background-color: rgba(171, 163, 163, 0.781);
+            border-radius: 100%;
+            box-shadow:  0 2px 6px 2px rgba(19, 11, 11, 0.7);
+            border: 1px solid black;
+        }
+        .ttf1:hover{
+            border-radius: 1px solid rgb(19, 11, 11);
+            color: rgb(21, 14, 14);
+        }
+
+        @media (max-width:481px) {
+            .logo{
+                width: 60%  ;
+            }
+            .st_f{
+                font-size: 12px;
+                font-family: calibri;
+                padding-top: 15px;
+            }
+            .st_d{
+                font-size: 16px;
+            }
+            .footer_content ul li{
+                font-size: 13px;
+                
+            }
+            .logo{
+                width: 25px;
+            }
+        }
+
+        @media (max-width:768px) {
+            .st_f{
+                font-size: 17px;
+                padding-top: 35px;
+
+            }
+            .st_d{
+                margin-right: 16px;
+            }
+            
+        }
+    </style>
+
+    </head>
+    <body>
+
+        <div class="container-fluid " >
+            <div class="row ">
+                <div class="col-md-12 col-sm-12 col-lg-12 p-0">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid">
+                            <a class="navbar-brand pe-5" href="#">
+                                <img src="images/logo1.png" class="logo">
+                            </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ps-5" >
+                              <li class="nav-item ">
+                                  <a class="nav-link text-black all-items" href="http://127.0.0.1:5500/interior-index.html">Home</a>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-black all-items" href="#" id="navbarDropdown" data-bs-toggle="dropdown">Seating</a>
+                                  <div class="dropdown-menu" aria-labelleby="navbarDropdown">
+                                      <a class="dropdown-item " href="http://127.0.0.1:5500/seating.html">Sofas</a>
+                                      
+                                      <a class="dropdown-item " href="http://127.0.0.1:5500/Accent-Chairs.html#">Accent chairs</a>
+                                      <a class="dropdown-item" href="http://127.0.0.1:5500/All%20Seating.html">All Seating</a>
+                                      <a class="dropdown-item disabled" href="#">Sleep Kit</a>
+                                  </div>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-black all-items" href="#" id="navbarDropdown" data-bs-toggle="dropdown">Living </a>
+                                     <div class="dropdown-menu" aria-labelleby="navbarDropdown">
+                                      <a class="dropdown-item" href="http://127.0.0.1:5500/coffe%20and%20table.html">Coffee & Side Tabels</a>
+                                      <a class="dropdown-item" href="http://127.0.0.1:5500/living2.html">Bookcases & shelving</a>
+                                      <a class="dropdown-item disabled" href="http://127.0.0.1:5500/seating.html">Sofas & Sectionals</a>
+                                      <a class="dropdown-item disabled" href="http://127.0.0.1:5500/Accent-Chairs.html">Accent Chairs</a>
+                                      
+                                      
+                                  </div> 
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link text-black all-items" href="http://127.0.0.1:5500/rugs.html">Rugs</a>
+                              </li>
+                              <li class="nav-item">
+                               <a class="nav-link" href="http://127.0.0.1:5500/page1.html">
+                                  <i class="fa-solid fa-user fa-align1" style="color: #02060d; font-size: 16px; padding: 5px 180px;"></i>
+                                  </a>
+                              </li>
+                              
+                            </ul>
+                           
+                          </div>
+                      
+                        </div>
+                      </nav>
+
+                </div>
+            </div>
+
+<!-- ################################################################ -->
+
+
+<div class="container ">
+<div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-7 "> 
+
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/nm-6a.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/nm-6b.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/nm-6c.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/nm-6d.webp" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+       
+    </div>
+
+        <div class="col-sm-12 col-md-12 col-lg-5 pt-3 " style="line-height: 2;">
+            <h4>Block Nomad Leather Double Chase Sofa<br>
+                Field 3-piece sofa </h4>
+            $1269 + Free Shipping   <br>
+            <br>
+            <input type="checkbox" size="70">  <span class="text-secondary">  Pillows + Rs.125 </span><br>
+            <input type="checkbox" size="70">  <span class="text-secondary">  SleepKit + Rs.225 </span>
+            <br><br>
+
+            <div class="button ttf btn btn-sm">B</div> &nbsp;
+            <div class="button ttf1 btn btn-sm">W</div> &nbsp;
+            <div class="button ttf2 btn btn-sm">G</div> &nbsp;
+
+            <br><br>
+
+            <input type="number" size="2" placeholder="1">
+            <br><br>
+           
+            <button class="btn btn-lg" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample" style="background-color: rgba(255, 255, 0, 0.545); border-radius: 0;">
+                ADD TO CART
+            </button>
+            
+
+        </div>
+
+    
+  <div class="offcanvas offcanvas-start" tabindex="1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Your Cart</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+
+    <hr>
+    <div class="offcanvas-body">
+
+        <div class="row">
+            <div class="col">
+                <img src="images/nm-2c.webp" style="width: 120px;">
+            </div>
+
+            <div class="col">
+                Nomad Sofa<br> 
+                $1269
+                <br>
+                In stock! Ships in 1-3 Weeks
+            </div>
+        </div>
+
+    </div>
+    
+    <hr>
+    <div class="offcanvas-footer">
+        <div class="row">
+            <div class="col">
+              Subtotal  
+            </div>
+            <div class="col">
+              $1599   
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                Sale savings   
+            </div>
+            <div class="col">
+                 -$330
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col">
+                 Apply Promo Code <span class="text-warning-subtle">+</span>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col">
+                 <b>Total  </b>
+            </div>
+            <div class="col">
+                  <b>$1629.00</b>
+            </div>
+        
+        </div>
+    </div>
+  </div>
+
+
+</div>
+</div>
+
+
+
+  <!-- ################################################333 -->
+<div class="container">
+    <div class="row my-5 pt-5">
+        <div class="col-sm-12 col-md-12 col-lg-12 py-2 mt-5 border-top">
+            <h3>About this piece</h3>
+            <p>The cornerstone of our Nomad Collection is the essential sofa reinvented for modern 
+                life. The first truly easy-to-move sofa thanks to our award-winning<br> modular design; it 
+                has plenty of room for three people, or more if you're into cuddling. It's packed
+                with all the clever, life-changing features you expect  <br>from Burrow, starting with a built-in USB charger.</p>
+        </div>
+    </div>
+
+    <div class="row py-5">
+        <div class="col-sm-12 col-md-4 col-lg-4 py-3 st_d border-end">
+            <h5>Customizable</h5>
+            Create your ideal sectional sofa with five fabric colors,<br>
+            six leg finishes, and three armrest heights. You<br>
+            can even swap the reversible back cushions: one<br> side is tufted for a classic look, the other smooth and contemporary.
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 py-3 st_d border-end">
+
+            <h5>Adaptable</h5>
+            Rest easy with the knowledge that your<br> 
+            new furniture can grow and expand with your<br> 
+            life, thanks to the universal, modular <br>
+            design of our Nomad Collection.
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 py-3 st_d border-end">
+
+            <h5>Comfortable</h5>
+            The cushions are formulated for lasting comfort<br> with our proprietary three-layer foam and<br> fiber architecture, and feature a plush crown<br> for a soft initial sit.
+        </div>
+
+    </div>
+
+
+
+    <div class="row my-5 py-5">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+            <video controls autoplay loop muted src="images/v1.mp4" width="100%"></video>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6 ">
+            <h3>Durable enough for everyday drama</h3>
+            <p class="st_f">Each and every component of our furniture is selected<br> 
+            for durability, from the galvanized steel latches to the <br>
+            precision-milled Baltic Birch frame. The fabric is<br> 
+            inherently scratch-resistant, thanks to an incredibly<br>
+            tight weave, which makes it perfect for pets and their<br>
+            parents.
+            <br>
+            <div class="row">
+            <div class="col" style="font-size: 10px;">
+                Low carbon footprint<br>
+                Fabric made from upcycled materials
+                
+            </div>
+            <div class="col" style="font-size: 10px;">
+            Sustainable wood<br>
+            Sourced from responsibly managed 
+            </div>
+             </p>
+            </div>
+        </div>
+    </div>
+
+<!-- ####################################################################3 -->
+
+    <div class="row my-5 ">
+        <div class="col-sm-12 col-md-12 col-lg-6 st_f my-5" >
+            <h3>Ships fast and free</h3>
+            <p class="st_f">Gone are the days of waiting weeks for furniture to <br>
+                crawl from a distribution center to your house, and paying<br>
+                an arm and a leg for special freight on top of it. Every <br>
+                single order from Burrow includes fast, free shipping in <br>
+                lightweight, easy-to-move boxes.
+                <br><br>
+                <div class="row">
+                <div class="col" style="font-size: 10px;">
+                    Free shipping<br>
+                    Delivered to your door in compact boxes
+                </div>
+                <div class="col" style="font-size: 10px;">
+                    Easy returns<br>
+                    Return it within 30 days of delivery
+                </div>
+                </div>
+        </p>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6">
+            <video controls autoplay loop muted src="images/v2.mp4" width="100%"></video>
+        </div>
+    </div>
+</div>
+<!-- #######################################################################33 -->
+
+
+
+<div class="container-fluid p-0">
+    <div class="row footer mt-5">
+        <div class="col col-sm-12 col-md-4 col-lg-4 pt-3 footer_content">
+        
+            <ul>
+            <li><b><u>Shopping Services</u></b></li>
+            <li>Schedule Consultations</li>
+            <li>Showrooms</li>
+            <li>Trade Programs</li>
+            <li>Outlet</li>
+        </ul>
+        
+        </div>
+        <div class="col col-sm-12 col-md-4 col-lg-4 pt-3 footer_content">
+        <ul>
+            <li><b><u>About</u></b></li>
+            <li>Our story</li>
+            <li>Reviews</li>
+            <li>Our Blog</li>
+        </ul>
+        </div>
+        <div class="col col-sm-12 col-md-4 col-lg-4 pt-3 footer_content">
+        <ul>
+            <li><b><u>Resources</u></b></li>
+            <li>Look up Order status</li>
+            <li>Returns</li>
+            <li>Assembly Consultation</li>
+        </ul>
+        </div>
+    
+    </div>
+    
+    
+    <div class="row bg-secondary-subtle">
+        <div class="col" style="display: flex; place-content: center;">
+            <p style="font-size: 19px;padding: 8px 60px;">
+                <img src="images/copyright.png" style="width: 20px;">
+                copyright</p>
+            <a href="https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjg3OTM5NzUzLCJjYWxsc2l0ZV9pZCI6MjY5NTQ4NDUzMDcyMDk1MX0%3D">
+            <img src="images/facebook.png" style="width: 38px; height: 35px;margin: 7px;">
+            </a>
+            <a href="https://www.google.com/">
+            <img src="images/google.png" style="width: 40px;height: 39px;margin: 7px;">
+            </a>
+            <a href="http://mail.google.com">
+            <img src="images/micon2.png" style="width: 40px;height: 50px;">
+            </a>
+            
+        </div>
+    </div>
+    </div>
+    
+
+
+    </body>
+</html>
